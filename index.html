@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk - SIGAP Monitoring</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <h2>SIGAP</h2>
+            <p>Sistem Inovasi Pantau Salinitas Pesisir</p>
+        </div>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Nama Pengguna</label>
+                <input type="text" id="username" name="username" required placeholder="Masukkan nama pengguna">
+            </div>
+            <div class="input-group">
+                <label for="password">Kata Sandi</label>
+                <input type="password" id="password" name="password" required placeholder="Masukkan kata sandi">
+            </div>
+            <button type="submit" class="login-btn">Masuk ke Dasbor</button>
+            <p id="errorMessage" class="error-text"></p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
